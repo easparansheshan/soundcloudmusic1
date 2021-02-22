@@ -16,3 +16,23 @@ body{
     margin: 0;
     margin-top: 2px;
 }
+
+#link1:hover{
+    color: red;
+}
+
+.btn1 {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+/* Style the active class (and buttons on mouse-over) */
+.active,
+.btn1:hover {
+    background-color: yellow;
+    color: white;
+}
+

@@ -56,6 +56,59 @@ $(document).ready(function () {
         });
 
     });
+    //english songs
+    SC.stream('/tracks/345819962', function (sound) {
+
+        $('#start5').click(function (e) {
+            e.preventDefault();
+            sound.start();
+        });
+
+        $('#stop5').click(function (e) {
+            e.preventDefault();
+            sound.stop();
+        });
+
+    });
+    SC.stream('/tracks/345819962', function (sound) {
+
+        $('#start6').click(function (e) {
+            e.preventDefault();
+            sound.start();
+        });
+
+        $('#stop6').click(function (e) {
+            e.preventDefault();
+            sound.stop();
+        });
+
+    });
+    SC.stream('/tracks/345819962', function (sound) {
+
+        $('#start7').click(function (e) {
+            e.preventDefault();
+            sound.start();
+        });
+
+        $('#stop7').click(function (e) {
+            e.preventDefault();
+            sound.stop();
+        });
+
+    });
+    SC.stream('/tracks/345819962', function (sound) {
+
+        $('#start8').click(function (e) {
+            e.preventDefault();
+            sound.start();
+        });
+
+        $('#stop8').click(function (e) {
+            e.preventDefault();
+            sound.stop();
+        });
+
+    });
 
 }); 
 
