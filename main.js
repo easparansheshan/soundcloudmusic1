@@ -256,6 +256,11 @@ $(document).ready(function () {
         });
 
     });
+    $('.stop').click(function (e) {
+        e.preventDefault();
+        sound.stop();
+    });
+
     //
 });
 
