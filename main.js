@@ -57,7 +57,7 @@ $(document).ready(function () {
 
     });
     //english songs
-    SC.stream('/tracks/345819962', function (sound) {
+    SC.stream('/tracks/649577930', function (sound) {
 
         $('#start5').click(function (e) {
             e.preventDefault();
@@ -124,3 +124,6 @@ $(document).ready(function () {
 
 //rowdy baby
 //<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/556842441&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/thepavelstar" title="ThePavelStar" target="_blank" style="color: #cccccc; text-decoration: none;">ThePavelStar</a> · <a href="https://soundcloud.com/thepavelstar/maari-2-rowdy-baby-dhanush-sai-pallavi-yuvan" title="Maari 2 - Rowdy Baby - Dhanush, Sai Pallavi ,Yuvan" target="_blank" style="color: #cccccc; text-decoration: none;">Maari 2 - Rowdy Baby - Dhanush, Sai Pallavi ,Yuvan</a></div>
+
+//English i am rider
+//<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/649577930&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/ankit-srdr" title="Ankit Sharma ✪" target="_blank" style="color: #cccccc; text-decoration: none;">Ankit Sharma ✪</a> · <a href="https://soundcloud.com/ankit-srdr/imran-khan-i-am-a-rider-satisfya8d-audio" title="Imran Khan I Am A Rider Satisfya(8D AUDIO)USE HEADPHONES" target="_blank" style="color: #cccccc; text-decoration: none;">Imran Khan I Am A Rider Satisfya(8D AUDIO)USE HEADPHONES</a></div>
