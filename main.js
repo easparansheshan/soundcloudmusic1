@@ -215,6 +215,21 @@ $(document).ready(function () {
         });
 
     });
+
+    //carousel songs
+    SC.stream('/tracks/7541943', function (sound) {
+
+        $('#start17').click(function (e) {
+            e.preventDefault();
+            sound.start();
+        });
+
+        $('#stop17').click(function (e) {
+            e.preventDefault();
+            sound.stop();
+        });
+
+    });
     
 
 });
@@ -268,3 +283,6 @@ $(document).ready(function () {
 
 //shake it
 //<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/483376425&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/trippie-hippie-2" title="Trippie Redd" target="_blank" style="color: #cccccc; text-decoration: none;">Trippie Redd</a> · <a href="https://soundcloud.com/trippie-hippie-2/shake-it-up" title="Shake It Up" target="_blank" style="color: #cccccc; text-decoration: none;">Shake It Up</a></div>
+
+//dady mumby
+//<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/7541943&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/desi-party-paris" title="desi party paris" target="_blank" style="color: #cccccc; text-decoration: none;">desi party paris</a> · <a href="https://soundcloud.com/desi-party-paris/daddy-mummy-tamil-remix" title="Daddy Mummy (Tamil remix)" target="_blank" style="color: #cccccc; text-decoration: none;">Daddy Mummy (Tamil remix)</a></div>
