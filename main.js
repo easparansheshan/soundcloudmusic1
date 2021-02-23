@@ -123,8 +123,48 @@ $(document).ready(function () {
         });
 
     });
+    SC.stream('/tracks/962591497', function (sound) {
 
-}); 
+        $('#start10').click(function (e) {
+            e.preventDefault();
+            sound.start();
+        });
+
+        $('#stop10').click(function (e) {
+            e.preventDefault();
+            sound.stop();
+        });
+
+    });
+    SC.stream('/tracks/187091617', function (sound) {
+
+        $('#start11').click(function (e) {
+            e.preventDefault();
+            sound.start();
+        });
+
+        $('#stop11').click(function (e) {
+            e.preventDefault();
+            sound.stop();
+        });
+
+    });
+    SC.stream('/playlists/687687270', function (sound) {
+
+        $('#start12').click(function (e) {
+            e.preventDefault();
+            sound.start();
+        });
+
+        $('#stop12').click(function (e) {
+            e.preventDefault();
+            sound.stop();
+        });
+
+    });
+
+
+});
 
 // aathi song
 //<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/168167974&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/my-songs-10" title="Rahul Rockzzz" target="_blank" style="color: #cccccc; text-decoration: none;">Rahul Rockzzz</a> · <a href="https://soundcloud.com/my-songs-10/12316546sdf546465" title="Aathi-Kaththi(2014)" target="_blank" style="color: #cccccc; text-decoration: none;">Aathi-Kaththi(2014)</a></div>
@@ -153,3 +193,12 @@ $(document).ready(function () {
 
 //singala songs yana yanwada
 //<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/740939929&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/chamuddi-gamage" title="chamuddi gamage" target="_blank" style="color: #cccccc; text-decoration: none;">chamuddi gamage</a> · <a href="https://soundcloud.com/chamuddi-gamage/yanna-yanawada-nilan-hettiarachchi" title="Yanna Yanawada-Nilan Hettiarachchi" target="_blank" style="color: #cccccc; text-decoration: none;">Yanna Yanawada-Nilan Hettiarachchi</a></div>
+
+//api gewana jivithe
+//<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/962591497&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/subashweragala" title="Subash Weragala" target="_blank" style="color: #cccccc; text-decoration: none;">Subash Weragala</a> · <a href="https://soundcloud.com/subashweragala/api-gewana-jivithe-ape-hadhakam" title="Api Gewana Jivithe | අපේ හාදකම් |Ape Hadhakam" target="_blank" style="color: #cccccc; text-decoration: none;">Api Gewana Jivithe | අපේ හාදකම් |Ape Hadhakam</a></div>
+
+//facebook weerayo
+//<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187091617&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/sinhalasongs" title="Sinhala songs" target="_blank" style="color: #cccccc; text-decoration: none;">Sinhala songs</a> · <a href="https://soundcloud.com/sinhalasongs/facebook-weerayo-munu-pothe" title="Facebook Weerayo Munu Pothe.." target="_blank" style="color: #cccccc; text-decoration: none;">Facebook Weerayo Munu Pothe..</a></div>
+
+//sinhala song
+//<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/687687270&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/nirmala-digashini-jayasingha" title="Nirmala Jayasingha" target="_blank" style="color: #cccccc; text-decoration: none;">Nirmala Jayasingha</a> · <a href="https://soundcloud.com/nirmala-digashini-jayasingha/sets/sinhala-songs" title="sinhala songs" target="_blank" style="color: #cccccc; text-decoration: none;">sinhala songs</a></div>
