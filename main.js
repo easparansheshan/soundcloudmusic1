@@ -83,7 +83,7 @@ $(document).ready(function () {
         });
 
     });
-    SC.stream('/tracks/345819962', function (sound) {
+    SC.stream('/tracks/932670262', function (sound) {
 
         $('#start7').click(function (e) {
             e.preventDefault();
@@ -96,7 +96,7 @@ $(document).ready(function () {
         });
 
     });
-    SC.stream('/tracks/556842441', function (sound) {
+    SC.stream('/tracks/230946251', function (sound) {
 
         $('#start8').click(function (e) {
             e.preventDefault();
@@ -130,3 +130,9 @@ $(document).ready(function () {
 
 // i am so lonely
 //<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/179383705&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/v-giang-xu-n" title="Võ Giang Xuân" target="_blank" style="color: #cccccc; text-decoration: none;">Võ Giang Xuân</a> · <a href="https://soundcloud.com/v-giang-xu-n/i-am-so-lonely-broken-angel-broken-angel" title="I Am So Lonely Broken Angel - Broken Angel" target="_blank" style="color: #cccccc; text-decoration: none;">I Am So Lonely Broken Angel - Broken Angel</a></div>
+
+//dababycry baby
+//<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/932670262&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/megan-thee-stallion" title="Megan Thee Stallion" target="_blank" style="color: #cccccc; text-decoration: none;">Megan Thee Stallion</a> · <a href="https://soundcloud.com/megan-thee-stallion/cry-baby-feat-dababy" title="Cry Baby (feat. DaBaby)" target="_blank" style="color: #cccccc; text-decoration: none;">Cry Baby (feat. DaBaby)</a></div>
+
+//Drake - Hotline Bling
+//<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/230946251&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/arman-cekin-remix" title="Arman Cekin Remixes" target="_blank" style="color: #cccccc; text-decoration: none;">Arman Cekin Remixes</a> · <a href="https://soundcloud.com/arman-cekin-remix/hotlinebling" title="Drake - Hotline Bling (Charlie Puth &amp; Kehlani Cover) [Wildfellaz &amp; Arman Cekin Remix]" target="_blank" style="color: #cccccc; text-decoration: none;">Drake - Hotline Bling (Charlie Puth &amp; Kehlani Cover) [Wildfellaz &amp; Arman Cekin Remix]</a></div>
