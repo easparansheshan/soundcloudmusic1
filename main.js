@@ -4,7 +4,7 @@ SC.initialize({
 
 $(document).ready(function () {
 
-    SC.stream('/playlists/1070291893', function (sound) {
+    SC.stream('/tracks/168167974', function (sound) {
 
         $('#start').click(function (e) {
             e.preventDefault();
@@ -217,7 +217,7 @@ $(document).ready(function () {
     });
 
     //carousel songs
-    SC.stream('/tracks/7541943', function (sound) {
+    SC.stream('/playlists/1196470111', function (sound) {
 
         $('#start17').click(function (e) {
             e.preventDefault();
@@ -286,3 +286,8 @@ $(document).ready(function () {
 
 //dady mumby
 //<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/7541943&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/desi-party-paris" title="desi party paris" target="_blank" style="color: #cccccc; text-decoration: none;">desi party paris</a> · <a href="https://soundcloud.com/desi-party-paris/daddy-mummy-tamil-remix" title="Daddy Mummy (Tamil remix)" target="_blank" style="color: #cccccc; text-decoration: none;">Daddy Mummy (Tamil remix)</a></div>
+
+//<canvas aria-hidden="true" class="g-box-full sceneLayer" width="505" height="60" style=""></canvas>
+
+//quitar carousel 1st
+//<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1196470111&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/user-451318478" title="Imka Lubbe" target="_blank" style="color: #cccccc; text-decoration: none;">Imka Lubbe</a> · <a href="https://soundcloud.com/user-451318478/sets/quitar" title="quitar" target="_blank" style="color: #cccccc; text-decoration: none;">quitar</a></div>
