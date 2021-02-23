@@ -230,8 +230,33 @@ $(document).ready(function () {
         });
 
     });
-    
+    SC.stream('/tracks/120695315', function (sound) {
 
+        $('#start18').click(function (e) {
+            e.preventDefault();
+            sound.start();
+        });
+
+        $('#stop18').click(function (e) {
+            e.preventDefault();
+            sound.stop();
+        });
+
+    });
+    SC.stream('/tracks/121742038', function (sound) {
+
+        $('#start19').click(function (e) {
+            e.preventDefault();
+            sound.start();
+        });
+
+        $('#stop19').click(function (e) {
+            e.preventDefault();
+            sound.stop();
+        });
+
+    });
+    //
 });
 
 // aathi song
@@ -291,3 +316,9 @@ $(document).ready(function () {
 
 //quitar carousel 1st
 //<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1196470111&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/user-451318478" title="Imka Lubbe" target="_blank" style="color: #cccccc; text-decoration: none;">Imka Lubbe</a> · <a href="https://soundcloud.com/user-451318478/sets/quitar" title="quitar" target="_blank" style="color: #cccccc; text-decoration: none;">quitar</a></div>
+
+//violin plays
+//<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/120695315&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/hanangobran" title="Hanan Gobran" target="_blank" style="color: #cccccc; text-decoration: none;">Hanan Gobran</a> · <a href="https://soundcloud.com/hanangobran/violin-crying-rain" title="Violin Crying Rain - winter rain sound - صوت الشتا - كمان تبكي مطراً" target="_blank" style="color: #cccccc; text-decoration: none;">Violin Crying Rain - winter rain sound - صوت الشتا - كمان تبكي مطراً</a></div>
+
+//drums play
+//<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/121742038&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/djnataliaparis" title="NATALIA PARIS OFICIAL" target="_blank" style="color: #cccccc; text-decoration: none;">NATALIA PARIS OFICIAL</a> · <a href="https://soundcloud.com/djnataliaparis/you-play-my-drums" title="you play my drums" target="_blank" style="color: #cccccc; text-decoration: none;">you play my drums</a></div>
