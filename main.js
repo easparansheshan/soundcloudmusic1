@@ -4,7 +4,7 @@ SC.initialize({
 
 $(document).ready(function () {
 
-    SC.stream('/tracks/51442761', function (sound) {
+    SC.stream('/playlists/1070291893', function (sound) {
 
         $('#start').click(function (e) {
             e.preventDefault();
@@ -163,12 +163,66 @@ $(document).ready(function () {
 
     });
 
+    SC.stream('/tracks/202631934', function (sound) {
+
+        $('#start13').click(function (e) {
+            e.preventDefault();
+            sound.start();
+        });
+
+        $('#stop13').click(function (e) {
+            e.preventDefault();
+            sound.stop();
+        });
+
+    });
+    SC.stream('/tracks/581481765', function (sound) {
+
+        $('#start14').click(function (e) {
+            e.preventDefault();
+            sound.start();
+        });
+
+        $('#stop14').click(function (e) {
+            e.preventDefault();
+            sound.stop();
+        });
+
+    });
+    SC.stream('/tracks/184014668', function (sound) {
+
+        $('#start15').click(function (e) {
+            e.preventDefault();
+            sound.start();
+        });
+
+        $('#stop15').click(function (e) {
+            e.preventDefault();
+            sound.stop();
+        });
+
+    });
+    SC.stream('/tracks/483376425', function (sound) {
+
+        $('#start16').click(function (e) {
+            e.preventDefault();
+            sound.start();
+        });
+
+        $('#stop16').click(function (e) {
+            e.preventDefault();
+            sound.stop();
+        });
+
+    });
+    
 
 });
 
 // aathi song
 //<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/168167974&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/my-songs-10" title="Rahul Rockzzz" target="_blank" style="color: #cccccc; text-decoration: none;">Rahul Rockzzz</a> · <a href="https://soundcloud.com/my-songs-10/12316546sdf546465" title="Aathi-Kaththi(2014)" target="_blank" style="color: #cccccc; text-decoration: none;">Aathi-Kaththi(2014)</a></div>
 //<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/51442761&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/praveena-rajah-1" title="Praveena Rajah 1" target="_blank" style="color: #cccccc; text-decoration: none;">Praveena Rajah 1</a> · <a href="https://soundcloud.com/praveena-rajah-1/sets/kathi-songs" title="kathi songs" target="_blank" style="color: #cccccc; text-decoration: none;">kathi songs</a></div>
+//<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1070291893&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/jithin-raj-6457931" title="jithin" target="_blank" style="color: #cccccc; text-decoration: none;">jithin</a> · <a href="https://soundcloud.com/jithin-raj-6457931/sets/kathi-song" title="kathi song" target="_blank" style="color: #cccccc; text-decoration: none;">kathi song</a></div>
 
 //enakena yarum ilaye
 //<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/191214159&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/insanegowtham" title="Gowtham" target="_blank" style="color: #cccccc; text-decoration: none;">Gowtham</a> · <a href="https://soundcloud.com/insanegowtham/enakenna-yarum-ila" title="Enakenna Yaarum Illaye - Aakko Tamil Movie Single | Anirudh Ravichander" target="_blank" style="color: #cccccc; text-decoration: none;">Enakenna Yaarum Illaye - Aakko Tamil Movie Single | Anirudh Ravichander</a></div>
@@ -202,3 +256,15 @@ $(document).ready(function () {
 
 //sinhala song
 //<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/687687270&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/nirmala-digashini-jayasingha" title="Nirmala Jayasingha" target="_blank" style="color: #cccccc; text-decoration: none;">Nirmala Jayasingha</a> · <a href="https://soundcloud.com/nirmala-digashini-jayasingha/sets/sinhala-songs" title="sinhala songs" target="_blank" style="color: #cccccc; text-decoration: none;">sinhala songs</a></div>
+
+//holywodd see you again
+//<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/202631934&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/kurniawan-ardi-kusuma-effendy" title="Kurniawan Effendy" target="_blank" style="color: #cccccc; text-decoration: none;">Kurniawan Effendy</a> · <a href="https://soundcloud.com/kurniawan-ardi-kusuma-effendy/128a" title="Wiz Khalifa - See You Again ft. Charlie Puth Furious 7 Soundtrack" target="_blank" style="color: #cccccc; text-decoration: none;">Wiz Khalifa - See You Again ft. Charlie Puth Furious 7 Soundtrack</a></div>
+
+//sorry song
+//<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/581481765&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/thekiddg" title="Kidd G" target="_blank" style="color: #cccccc; text-decoration: none;">Kidd G</a> · <a href="https://soundcloud.com/thekiddg/sorry-kidd-g-prod-pp" title="Sorry" target="_blank" style="color: #cccccc; text-decoration: none;">Sorry</a></div>
+
+//Blank space
+//<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/184014668&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/iprevailband" title="I Prevail" target="_blank" style="color: #cccccc; text-decoration: none;">I Prevail</a> · <a href="https://soundcloud.com/iprevailband/blank-space-taylor-swift" title="I Prevail - Blank Space (Taylor Swift)Punk Goes Pop Style Cover" target="_blank" style="color: #cccccc; text-decoration: none;">I Prevail - Blank Space (Taylor Swift)Punk Goes Pop Style Cover</a></div>
+
+//shake it
+//<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/483376425&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/trippie-hippie-2" title="Trippie Redd" target="_blank" style="color: #cccccc; text-decoration: none;">Trippie Redd</a> · <a href="https://soundcloud.com/trippie-hippie-2/shake-it-up" title="Shake It Up" target="_blank" style="color: #cccccc; text-decoration: none;">Shake It Up</a></div>
