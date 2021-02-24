@@ -217,7 +217,7 @@ $(document).ready(function () {
     });
 
     //carousel songs
-    SC.stream('/playlists/1196470111', function (sound) {
+    SC.stream('/playlists/1207629592', function (sound) {
 
         $('#start17').click(function (e) {
             e.preventDefault();
@@ -324,6 +324,7 @@ $(document).ready(function () {
 
 //quitar carousel 1st
 //<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1196470111&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/user-451318478" title="Imka Lubbe" target="_blank" style="color: #cccccc; text-decoration: none;">Imka Lubbe</a> · <a href="https://soundcloud.com/user-451318478/sets/quitar" title="quitar" target="_blank" style="color: #cccccc; text-decoration: none;">quitar</a></div>
+//<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1207629592&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/damn-damn-570320747" title="damn damn" target="_blank" style="color: #cccccc; text-decoration: none;">damn damn</a> · <a href="https://soundcloud.com/damn-damn-570320747/sets/quitar" title="quitar" target="_blank" style="color: #cccccc; text-decoration: none;">quitar</a></div>
 
 //violin plays
 //<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/120695315&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/hanangobran" title="Hanan Gobran" target="_blank" style="color: #cccccc; text-decoration: none;">Hanan Gobran</a> · <a href="https://soundcloud.com/hanangobran/violin-crying-rain" title="Violin Crying Rain - winter rain sound - صوت الشتا - كمان تبكي مطراً" target="_blank" style="color: #cccccc; text-decoration: none;">Violin Crying Rain - winter rain sound - صوت الشتا - كمان تبكي مطراً</a></div>
