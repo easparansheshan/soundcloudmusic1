@@ -217,7 +217,7 @@ $(document).ready(function () {
     });
 
     //carousel songs
-    SC.stream('tracks/498231915', function (sound) {
+    SC.stream('tracks/308331116', function (sound) {
 
         $('#start17').click(function (e) {
             e.preventDefault();
@@ -337,3 +337,6 @@ $(document).ready(function () {
 
 //maruvarthai pesathe
 //<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/498231915&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/parthiban-govindasamy" title="parthiban govindasamy" target="_blank" style="color: #cccccc; text-decoration: none;">parthiban govindasamy</a> · <a href="https://soundcloud.com/parthiban-govindasamy/maruvarthai-pesathe-enai-nokki" title="Maruvarthai Pesathe - Enai Nokki Paayum Thotta" target="_blank" style="color: #cccccc; text-decoration: none;">Maruvarthai Pesathe - Enai Nokki Paayum Thotta</a></div>
+
+//tamil melody song
+//<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/308331116&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/djajoyofficial" title="DJ AJOY" target="_blank" style="color: #cccccc; text-decoration: none;">DJ AJOY</a> · <a href="https://soundcloud.com/djajoyofficial/vijay-latest-romantic-tamil-hit-songs-mixtape-melody-by-dj-ajoymp3" title="Vijay Latest Romantic Tamil Hit Songs Mixtape Melody by DJ Ajoy.mp3" target="_blank" style="color: #cccccc; text-decoration: none;">Vijay Latest Romantic Tamil Hit Songs Mixtape Melody by DJ Ajoy.mp3</a></div>
