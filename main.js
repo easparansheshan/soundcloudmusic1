@@ -257,13 +257,13 @@ $(document).ready(function () {
 
     });
 
-   // stop common 
-    SC.stream('/tracks/121742038','/tracks/120695315','/playlists/1196470111', function (sound) {
-    $('.stop').click(function (e) {
-        e.preventDefault();
-        sound.stop();
-    });
-});
+    // stop common 
+    /*  SC.stream('/tracks/121742038','/tracks/120695315','/playlists/1196470111', function (sound) {
+      $('.stop').click(function (e) {
+          e.preventDefault();
+          sound.stop();
+      });
+  });*/
     //
 });
 
