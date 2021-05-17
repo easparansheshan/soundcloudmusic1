@@ -230,6 +230,19 @@ $(document).ready(function () {
         });
 
     });
+    SC.stream('tracks/47924361', function (sound) {
+
+        $('#start100').click(function (e) {
+            e.preventDefault();
+            sound.start();
+        });
+
+        $('#stop100').click(function (e) {
+            e.preventDefault();
+            sound.stop();
+        });
+
+    });
     SC.stream('/tracks/120695315', function (sound) {
 
         $('#start18').click(function (e) {
@@ -256,19 +269,7 @@ $(document).ready(function () {
         });
 
     });
-    SC.stream('tracks/47924361', function (sound) {
-
-        $('#start100').click(function (e) {
-            e.preventDefault();
-            sound.start();
-        });
-
-        $('#stop100').click(function (e) {
-            e.preventDefault();
-            sound.stop();
-        });
-
-    });
+   
     // stop common 
     /*  SC.stream('/tracks/121742038','/tracks/120695315','/playlists/1196470111', function (sound) {
       $('.stop').click(function (e) {
